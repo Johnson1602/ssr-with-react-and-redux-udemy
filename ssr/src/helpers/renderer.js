@@ -6,6 +6,7 @@ export default () => {
   const content = renderToString(<Home />)
 
   return `
+    <!DOCTYPE html>
     <html>
       <head>
       </head>

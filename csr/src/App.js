@@ -1,11 +1,12 @@
 import React from 'react'
-import { images } from './images'
 
-export const Home = () => {
+function App() {
   return (
     <main>
-      <div>Welcome to homepage!</div>
+      <h1>Welcome to homepage!</h1>
       <button onClick={() => console.log('=== Hi there')}>Press me!</button>
     </main>
   )
 }
+
+export default App

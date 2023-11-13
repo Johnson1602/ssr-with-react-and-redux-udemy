@@ -9,7 +9,7 @@ const config = {
   // tell webpack where to put the output file that is generated
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'static'),
   },
 }
 
