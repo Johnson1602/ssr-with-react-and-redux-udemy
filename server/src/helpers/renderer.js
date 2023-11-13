@@ -3,7 +3,7 @@ import { renderToString } from 'react-dom/server'
 import { Home } from '../client/components/Home'
 
 export default () => {
-  const content = renderToString(<Home isSSR={true} />)
+  const content = renderToString(<Home />)
 
   return `
     <html>
