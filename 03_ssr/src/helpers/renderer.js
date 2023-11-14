@@ -12,8 +12,23 @@ export default () => {
       </head>
       <body>
         <div id="root">${content}</div>
-        <script src="bundle.js"></script>
       </body>
     </html>
   `
 }
+
+// export default () => {
+//   const content = renderToString(<Home />)
+
+//   return `
+//     <!DOCTYPE html>
+//     <html>
+//       <head>
+//       </head>
+//       <body>
+//         <div id="root">${content}</div>
+//         <script src="bundle.js"></script>
+//       </body>
+//     </html>
+//   `
+// }
