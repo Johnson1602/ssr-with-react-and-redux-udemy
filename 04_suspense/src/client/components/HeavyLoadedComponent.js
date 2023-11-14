@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function HeavyLoadedComponent() {
-  return <h2>Good to see you!</h2>
+  return <p>Good to see you!</p>
 }
 
 export function Loading() {
-  return <div>Loading...</div>
+  return <p>Loading...</p>
 }
